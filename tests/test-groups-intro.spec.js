@@ -3,7 +3,7 @@ import { test } from "@playwright/test";
 test.describe("User story01 @user01", async () => {
   // create beforeAll.
   test.beforeAll(async () => {
-    console.log("BeforeAll function is executed.");
+  console.log("BeforeAll function is executed.");
   });
 
   // create afterAll.
